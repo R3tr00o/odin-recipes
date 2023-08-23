@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: sans-serif;
-  background: linear-gradient(to top right, #ed9025, #db5c17);
+  background: linear-gradient(to top right, #fea33b, #ff7b33);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -26,7 +26,7 @@ body {
   padding: 4.8rem 0;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  background: linear-gradient(to top right, #ed9025, #db5c17);
+  background: linear-gradient(to top right, #fea33b, #ff7b33);
 }
 
 h1 {
