@@ -11,22 +11,46 @@ html {
 
 body {
   font-family: sans-serif;
-  background: linear-gradient(to top right, #c3761f, #a1420f);
+  background: linear-gradient(to top right, #ed9025, #db5c17);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 .container {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 9.6rem;
+  padding: 4.8rem 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: linear-gradient(to top right, #ed9025, #db5c17);
 }
 
 h1 {
   font-size: 4.2rem;
   letter-spacing: 0.7px;
-  color: #1a2a06;
+  color: #222;
+}
+
+.recipes-list {
+  font-size: 1.8rem;
+  list-style: none;
+  text-align: center;
+  height: 90px;
+}
+
+.recipe-link:link,
+.recipe-link:visited {
+  text-decoration: none;
+  color: #222;
+  transition: all 0.7s;
+}
+
+.recipe-link:hover,
+.recipe-link:active {
+  color: #ffffff;
+  font-size: 2.2rem;
 }
